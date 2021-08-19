@@ -8,6 +8,7 @@
     <title>Button Clicker (Core)</title>
 </head>
 <body>
+    
     <div id="nav-container">
         <h1 class="nav-title">Dojonary</h1>
         <ul class="nav-links">
@@ -15,36 +16,45 @@
             <li class="login-btn"><button onclick="logOut(this)">Login</button></li> 
         </ul>
     </div>
+
+
     <div id="content-container">
-        <div class="first-content">
-            <div class="content1">
-                <h1>Ninja</h1>
-                <h4>noun</h4>
-                <p>Plural:<em>ninjas</em></p>
-                <button class="like-btn1" onclick="alert('Ninja was liked!')">13 Likes</button>
+        <div id="box1">
+            <div class="first-content">
+                <div class="content1">
+                    <h1>Ninja</h1>
+                    <h4>noun</h4>
+                    <p>Plural:<em>ninjas</em></p>
+                    <button class="like-btn1" onclick="alert('Ninja was liked!')">13 Likes</button>
+                </div>
+                    <div class="quote">
+                        <p><em>A practitioner skilled in the Japanese art of ninjusu.</em></p>
+                    </div>     
             </div>
-            <div class="quote">
-                <p><em>A practitioner skilled in the Japanese art of ninjusu.</em></p>
+        
+            <div class="second-content">
+                <div class="content2">
+                    <h1>Ninja</h1>
+                    <h4>noun</h4>
+                    <p>Plural:<em>ninjas</em></p>
+                    <button class="like-btn2" onclick="changeTotal(this)">37 Likes</button>
+                </div>
+                    <div class="quote">
+                        <p><em>A programmer who breaks downs problems with zen-like focus.</em></p>
+                    </div>
             </div>
-            
         </div>
-        <div class="second-content">
-            <div class="content2">
-                <h1>Ninja</h1>
-                <h4>noun</h4>
-                <p>Plural:<em>ninjas</em></p>
-                <button class="like-btn2" onclick="changeTotal(this)">37 Likes</button>
-            </div>
-            <div class="quote">
-                <p><em>A programmer who breaks downs problems with zen-like focus.</em></p>
-            </div>
-        <div class="sub-content">
-            <div class="sub-text">
-                <h3>Dojonary</h3>
-                <h6>Is defined by YOU</h6>
-                <button onclick="hide(this)">Add Definition</button>
-            </div>
-        </div>  
+    
+        <div id="box2">
+            <div class="sub-content">
+                <div class="sub-text">
+                    <h3>Dojonary</h3>
+                    <h6>Is defined by YOU</h6>
+                    <button onclick="hide(this)">Add Definition</button>
+                </div>
+            </div> 
+      
+        </div> 
     </div>
 
    
