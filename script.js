@@ -38,13 +38,13 @@ alertMessage(element);
 
 /* Increment attempt */
 
-var likecounter = 37;
-var likeElement = document.querySelector("#like-btn-2");
+var counter = 37;
+var updatedElement = document.querySelector(".ninjalikes");
 
-function updateLikes(){
+function add1(){
 
-    likecounter++;
-    console.log(likecounter);
-    likeElement.innerText = likecounter +' '+ "Likes";
-    console.log(likeElement);
+    counter++;
+    console.log(counter);
+    updatedElement.innerText = counter +' '+ "Likes";
+    console.log(updatedElement);
 }
