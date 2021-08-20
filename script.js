@@ -38,13 +38,3 @@ alertMessage(element);
 
 /* Increment attempt */
 
-var likecount = 37;
-var updateLikes = document.querySelector(".like-btn2");
-
-function updateLikes () {
-
-    likecount++;
-    console.log(likecount);
-    updateLikes.innerText = likecount +' '+ "Likes";
-    console.log(updateLikes);
-}
