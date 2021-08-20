@@ -1,3 +1,18 @@
+/* Increment attempt */
+
+var counter = 36;
+var updatedElement = document.querySelector(".ninjalikes");
+
+function add1(){
+
+    counter++;
+    console.log(counter);
+    updatedElement.innerText = counter +' '+ "Likes";
+    console.log(updatedElement);
+}
+add1();
+
+
 /* Login & Log Out */
 
 let login = true;
@@ -35,17 +50,3 @@ function alertMessage(element) {
 
 }
 alertMessage(element);
-
-/* Increment attempt */
-
-var counter = 37;
-var updatedElement = document.querySelector(".ninjalikes");
-
-function add1(){
-
-    counter++;
-    console.log(counter);
-    updatedElement.innerText = counter +' '+ "Likes";
-    console.log(updatedElement);
-}
-add1();
