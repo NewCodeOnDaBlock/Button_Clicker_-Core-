@@ -48,3 +48,4 @@ function add1(){
     updatedElement.innerText = counter +' '+ "Likes";
     console.log(updatedElement);
 }
+add1();
