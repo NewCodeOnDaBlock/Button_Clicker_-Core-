@@ -23,7 +23,9 @@ function hide(element) {
     element.remove();
 
 }
+
 hide(element);
+
 
 /* alert message */
 
@@ -36,13 +38,13 @@ alertMessage(element);
 
 /* Increment attempt */
 
-var count = 37;
+var likecount = 37;
 var updateLikes = document.querySelector(".like-btn2");
 
-function add() {
+function updateLikes () {
 
-    count++;
-    console.log(count);
-    updateLikes.innerText = count +' '+ "Likes";
+    likecount++;
+    console.log(likecount);
+    updateLikes.innerText = likecount +' '+ "Likes";
     console.log(updateLikes);
 }
